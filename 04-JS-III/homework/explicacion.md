@@ -1,0 +1,1 @@
+Un arry es una lista que puede contener toda clase de datos, para luego poder hacer uso de ellos mediante distintos metodos, que nos permitiran entre otras cosas agragar o quitar alguno de ellos, obtener su posicion, etc.
