@@ -8,14 +8,9 @@ function obtenerMayor(x, y) {
   if ( x > y){
     return  x
     }
-    else if (x < y)
-{
   return y
-}  
-else  ( x === y);
-{
-  return x || y
-}
+
+
 }
 
 function mayoriaDeEdad(edad) {
@@ -41,9 +36,10 @@ if (status === 1){
   else if (status === 2){
     return"Away"
   }
-  else"Offline"
+  else {
+    return "Offline"
 }
-
+}
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
   // Si "idioma" es "aleman", devuelve "Guten Tag!"
@@ -51,15 +47,15 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-if ( idioma === "aleman"){
-  return "Guten Tag!"}
-else if( idioma === "mandarin"){
-  return "Ni Hao"
+if ( idioma === 'aleman'){
+  return 'Guten Tag!'}
+else if( idioma === 'mandarin'){
+  return 'Ni Hao!'
 }
-else if ( idioma === "ingles"){
-  return "Hello"
+else if ( idioma === 'ingles'){
+  return 'Hello'
 }
-else{ return "Hola!"}
+else{ return 'Hola!'}
 }
 
 function colors(color) {
@@ -113,11 +109,12 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-if ( numero % 15 === 0) return "fizzbuzz";
-if (numero % 3 === 0) return "fizz";
+if ( numero % 15 === 0) return 'fizzbuzz';
+if (numero % 3 === 0) return 'fizz';
 
-if (numero % 5 === 0) return "buzz";
-return numero}
+if (numero % 5 === 0) return 'buzz';
+return numero
+}
 // no entendi esta funcion
 
 function operadoresLogicos(num1, num2, num3) {
