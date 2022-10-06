@@ -98,7 +98,6 @@ describe('nuevoUsuario(nombre, email, password)', function() {
     expect(nuevoUsuario(user2.nombre, user2.email, user2.password)).toEqual(user2);
   });
 });
-
 describe('tieneEmail(user)', function() {
   it('should return true if the user object has a value for its email property', function() {
     expect(tieneEmail({ usernombre: 'Samuel', email: 'samuel@email.com' })).toEqual(true);
@@ -133,7 +132,6 @@ describe('verificarPassword(user, password)', function() {
     expect(verificarPassword(user, password)).toBe(false);
   });
 });
-
 describe('actualizarPassword(user, password)', function() {
   it('should return the user object with the updated password', function() {
     const user = {
