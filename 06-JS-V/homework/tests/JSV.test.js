@@ -31,7 +31,7 @@ describe('agregarMetodoPrototype(Constructor)', function() {
 	});
 });
 
-xdescribe('agregarStringInvertida(StringPrototype)', function(){
+describe('agregarStringInvertida(StringPrototype)', function(){
 	it('should add a reverse string method to the String prototype that returns a reversed version of the string', function() {
 		agregarStringInvertida();
 		const str = 'Hello';
@@ -39,13 +39,13 @@ xdescribe('agregarStringInvertida(StringPrototype)', function(){
 	});
 });
 
-xdescribe('crearInstanciaPersona()', function() {
+describe('crearInstanciaPersona()', function() {
 	it('should return a new instance of Persona', function() {
 		expect(crearInstanciaPersona("Juan", "Pérez", 22, "Saavedra 123")).toBeInstanceOf(Persona);
 	});
 });
 
-xdescribe('agregarMetodo(Persona)', function() {
+describe('agregarMetodo(Persona)', function() {
 	it('should add the method datos to the constructor', function() {
 		agregarMetodo();
 		const persona = new Persona("Juan", "Pérez", 22, "Saavedra 123");
